@@ -32,19 +32,19 @@ Sistema backend de pedidos de restaurante com **Node.js, Express e Knex.js**. Cr
 git clone <url-do-repositorio>
 Instale as dependências:
 
-bash
-Copiar código
+2
 npm install
 Configure seu banco de dados em knexfile.js
-
+3
 Rode as migrations:
 
-bash
-Copiar código
+
+
 npx knex migrate:latest
+4
 Inicie o servidor:
 
-bash
-Copiar código
+
+
 npm run dev
 Teste as rotas no Postman ou Insomnia
